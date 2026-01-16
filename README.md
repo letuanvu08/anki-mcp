@@ -154,3 +154,66 @@ The Inspector will provide a URL to access debugging tools in your browser where
 - Close the Anki browser if you have it open (known AnkiConnect limitation)
 - Verify the deck and note type names match exactly (case-sensitive)
 - Check field names match your note type's field configuration
+
+## Contributing
+
+Contributions are welcome! Whether you're fixing bugs, adding features, or improving documentation, your help is appreciated.
+
+### How to Contribute
+
+1. **Fork the repository** on GitHub
+2. **Clone your fork** locally:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/anki-mcp.git
+   cd anki-mcp
+   ```
+3. **Create a new branch** for your feature or bugfix:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+4. **Make your changes** and test thoroughly
+5. **Build and test** your changes:
+   ```bash
+   npm install
+   npm run build
+   npm run inspector  # Test with MCP Inspector
+   ```
+6. **Commit your changes** with clear, descriptive messages:
+   ```bash
+   git commit -m "Add: description of your changes"
+   ```
+7. **Push to your fork**:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+8. **Open a Pull Request** on GitHub with a clear description of your changes
+
+### Development Guidelines
+
+- Write clean, readable TypeScript code
+- Follow the existing code style and structure
+- Test your changes with the MCP Inspector
+- Update documentation if you're adding new features
+- Keep commits focused and atomic
+
+### Reporting Issues
+
+Found a bug or have a feature request? Please open an issue on GitHub with:
+- A clear, descriptive title
+- Steps to reproduce (for bugs)
+- Expected vs actual behavior
+- Your environment (OS, Anki version, Node version)
+
+### Questions?
+
+Feel free to open an issue for questions or join the discussion in existing issues.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Built on the [Model Context Protocol](https://modelcontextprotocol.io/) by Anthropic
+- Uses [AnkiConnect](https://foosoft.net/projects/anki-connect/) for Anki integration
+- Powered by [yanki-connect](https://www.npmjs.com/package/yanki-connect) npm package
