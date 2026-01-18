@@ -57,7 +57,7 @@ npm run watch
 
 When you add cards with images or audio files, the server automatically handles different types of media sources:
 
-1. **Local File Paths**: If you provide an absolute path to a file on your computer (e.g., `/Users/vu.letuan/Documents/vu/English/images/prune.jpg`), the server will:
+1. **Local File Paths**: If you provide an absolute path to a file on your computer (e.g., `/Users/mycomputer/Documents/images/prune.jpg`), the server will:
    - Read the file from your disk
    - Convert it to base64
    - Upload it to Anki's media collection using the `storeMediaFile` API
